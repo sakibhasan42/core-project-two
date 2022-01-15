@@ -1,0 +1,63 @@
+/* firsr quater */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(63, 63, 63);
+}
+h1{
+    font-size: 50px;
+}
+.first-section{
+    display: flex;
+    padding: 5%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(253, 112, 112);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    
+}
+/* products styles */
+.container{
+   
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    padding-left: 2.5%;
+}
+
+.product .product-banner img {
+    width: 224;
+    height: 104;
+   
+}
+.course-star {
+color: #FFC014;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.section-main{
+    text-align: center;
+}
+.section-main{
+    font-size: 30px;
+}
+.extra-button{
+    text-align: right;
+    padding-right: 15%;
+    color: rgb(63, 63, 63);
+    font-size: 20px;
+    
+}
+footer{
+    text-align: center;
+    
+    color: white;
+    background-color: rgb(32, 32, 32);
+    height: 150px;
+    
+}
+.product-banner:hover .photos{
+    transform: scale(1.5);
+}
